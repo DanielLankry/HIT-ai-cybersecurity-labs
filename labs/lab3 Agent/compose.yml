@@ -1,0 +1,26 @@
+services:
+  chainlit:
+    image: lab3
+    build: .
+    container_name: lab3
+    working_dir: /chainlit-runtime
+    volumes:
+      - .:/app
+      - ./chainlit.md:/chainlit-runtime/chainlit.md:ro
+    ports:
+      - "8000:8000"
+    env_file: [.env]
+    environment:
+      API_BASE_URL: "https://openrouter.ai/api/v1"
+      MODEL: "deepseek/deepseek-chat-v3.1"
+    command:
+      [
+        "chainlit",
+        "run",
+        "/app/app/agent/app.py",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8000",
+        "--headless",
+      ]
