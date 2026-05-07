@@ -1,0 +1,5 @@
+[project]
+name = "lab3"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["ag2[openai]>=0.9", "chainlit>=2.0"]

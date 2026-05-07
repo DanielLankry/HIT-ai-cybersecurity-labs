@@ -1,0 +1,6 @@
+.env
+.chainlit/
+.files/
+__pycache__/
+*.pyc
+.venv/
