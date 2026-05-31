@@ -1,0 +1,19 @@
+services:
+  devui:
+    image: lab4
+    build: .
+    container_name: lab4
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8081:8080"
+    env_file: [.env]
+    environment:
+      API_BASE_URL: "https://openrouter.ai/api/v1"
+      MODEL: "deepseek/deepseek-chat-v3.1"
+      ENABLE_OTEL: true
+      ENABLE_SENSITIVE_DATA: true
+
+    command:
+      ["uv", "run", "devui", "./app", "--host", "0.0.0.0", "--port", "8080"]
