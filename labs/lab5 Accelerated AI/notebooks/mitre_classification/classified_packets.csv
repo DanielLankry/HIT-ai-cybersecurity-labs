@@ -1,0 +1,31 @@
+event_id,timestamp,user,host,source_ip,event_type,mitre_tactic,mitre_technique,classification_reason
+1c6b5fe0-8cc4-419c-a4bc-a358dfbc0eca,2026-05-31T14:04:00.067609+00:00,bob,LAPTOP-7,10.0.0.15,user_login,TA0006,T1110,Possible brute force
+d4c9a61f-92cf-4e5a-b270-42f3dabc6a57,2026-05-31T14:04:00.390316+00:00,bob,WIN-02,192.168.1.50,user_login,TA0006,T1110,Possible brute force
+1098fda5-504a-4788-a17b-342f4f2dec6b,2026-05-31T14:04:00.591248+00:00,daniel,WIN-02,192.168.1.50,user_login,TA0001,T1078,Valid account login
+def09e4f-6808-413d-8dce-6b2c0198e365,2026-05-31T14:04:00.791892+00:00,daniel,WIN-02,10.0.0.25,user_login,TA0001,T1078,Valid account login
+38a3278c-e5d5-4ae1-944e-5c7066fe1e3c,2026-05-31T14:04:00.992720+00:00,alice,WIN-02,192.168.1.50,user_login,TA0001,T1078,Valid account login
+ed3bfadc-8124-40ed-b3b6-60a186df7cc0,2026-05-31T14:04:01.194248+00:00,alice,WIN-02,10.0.0.10,process_start,TA0002,T1059,Command execution
+0cb8cedc-8041-4b92-8f26-8d08d549bb58,2026-05-31T14:04:01.395005+00:00,alice,LAPTOP-7,10.0.0.25,user_login,TA0001,T1078,Valid account login
+b52520d6-7c38-43ed-930e-3145b1cc36e9,2026-05-31T14:04:01.595866+00:00,service_account,LAPTOP-7,10.0.0.25,user_login,TA0001,T1078,Valid account login
+585a2e4a-e3d5-4593-98c3-8c8ac8404242,2026-05-31T14:04:01.796585+00:00,service_account,SERVER-1,10.0.0.10,process_start,TA0002,T1059.001,PowerShell encoded command
+5272c23e-7586-4951-8de1-14a22dfe300f,2026-05-31T14:04:01.997344+00:00,service_account,WIN-02,10.0.0.25,user_login,TA0001,T1078,Valid account login
+67deb494-9ef1-4f6a-b847-8b8973365b33,2026-05-31T14:04:02.198319+00:00,daniel,WIN-02,10.0.0.25,user_login,TA0006,T1110,Possible brute force
+61d86f44-a7e1-4798-9376-73a8082ca44f,2026-05-31T14:04:02.398911+00:00,bob,WIN-01,192.168.1.50,process_start,TA0002,T1059.003,Windows command shell
+942c7504-b658-41fe-82de-8cfc5f67a712,2026-05-31T14:04:02.599711+00:00,alice,WIN-02,10.0.0.10,user_login,TA0006,T1110,Possible brute force
+4f018773-36b8-4734-9a8e-fb817bd68338,2026-05-31T14:04:02.800291+00:00,service_account,SERVER-1,10.0.0.10,user_login,TA0006,T1110,Possible brute force
+cded657e-cfc2-4a2b-bdc9-6bdc6be78415,2026-05-31T14:04:03.001018+00:00,daniel,WIN-01,10.0.0.25,process_start,TA0002,T1059.003,Windows command shell
+f927095e-500b-45bd-b3e7-cd1ed9baeaba,2026-05-31T14:04:03.202097+00:00,service_account,LAPTOP-7,192.168.1.50,user_login,TA0006,T1110,Possible brute force
+bd4b02aa-7ca0-452d-bb26-c329f8dbb046,2026-05-31T14:04:03.402665+00:00,bob,WIN-01,10.0.0.25,process_start,TA0002,T1059,Command execution
+75cdc492-70c7-4758-8af1-9082c203e737,2026-05-31T14:04:03.603384+00:00,alice,SERVER-1,10.0.0.15,user_login,TA0001,T1078,Valid account login
+6c928033-9b07-4411-97de-ea26a8d973b5,2026-05-31T14:04:03.803978+00:00,daniel,WIN-02,10.0.0.25,user_login,TA0001,T1078,Valid account login
+db84e59f-5ca1-4cc7-ab3a-94179146d64e,2026-05-31T14:04:04.004665+00:00,bob,SERVER-1,10.0.0.25,user_login,TA0001,T1078,Valid account login
+54c6ec0e-63b6-4f28-9c06-415141352ce1,2026-05-31T14:04:04.205714+00:00,daniel,LAPTOP-7,10.0.0.10,user_login,TA0006,T1110,Possible brute force
+88e990e3-fb45-451e-8f87-437eca23e2ca,2026-05-31T14:04:04.406511+00:00,bob,LAPTOP-7,10.0.0.10,user_login,TA0006,T1110,Possible brute force
+47213ad1-d156-40d4-b34b-d3f661dff713,2026-05-31T14:04:04.608273+00:00,alice,WIN-02,10.0.0.15,user_login,TA0001,T1078,Valid account login
+e03c90e4-801f-4aac-ae5d-e1bc43526422,2026-05-31T14:04:04.809068+00:00,service_account,WIN-01,192.168.1.50,process_start,TA0002,T1059,Command execution
+5f81bca4-ad31-4cb3-bfb3-aa16a848bf54,2026-05-31T14:04:05.009836+00:00,alice,SERVER-1,10.0.0.10,user_login,TA0001,T1078,Valid account login
+4d9f1f4c-2399-4b91-8c4d-5b2541caaac9,2026-05-31T14:04:05.210873+00:00,service_account,WIN-02,10.0.0.15,user_login,TA0006,T1110,Possible brute force
+19b13643-c87e-4b5d-82bf-45b65743ab29,2026-05-31T14:04:05.411705+00:00,bob,WIN-01,10.0.0.10,user_login,TA0006,T1110,Possible brute force
+5853c335-b7f4-4097-90b5-05d831493a43,2026-05-31T14:04:05.612272+00:00,alice,WIN-01,10.0.0.25,process_start,TA0002,T1059.001,PowerShell encoded command
+1e0f9cc0-4c5e-4a3b-ba02-9add67d17df8,2026-05-31T14:04:05.813056+00:00,bob,WIN-02,10.0.0.25,process_start,TA0002,T1059.003,Windows command shell
+44061f85-2e1b-4ea2-9b02-260346dcb042,2026-05-31T14:04:06.013772+00:00,daniel,WIN-02,10.0.0.10,process_start,TA0002,T1059,Command execution
