@@ -6,6 +6,21 @@ Streamlit MVP for detecting anomalous network traffic from CSV logs using a CPU-
 
 Security teams receive large volumes of network-flow logs. This project gives a lightweight local dashboard for finding suspicious flows and explaining why a row may be anomalous.
 
+## Requirement Check
+
+| Requirement | Where it is covered |
+| --- | --- |
+| Clear problem statement | Project goal and `REPORT.md` |
+| Architecture | `REPORT.md` architecture section and modular files |
+| Chosen technologies | Streamlit, pandas, scikit-learn, Plotly, and Python |
+| Data analysis | Dataset overview, preprocessing, selected features, missing-value handling |
+| Results | Detection metrics, suspicious-flow table, scatter plot, anomaly explanation |
+| Conclusions | `REPORT.md` conclusion section |
+| MITRE ATT&CK mapping | `mitre_mapping.py` and dashboard mapping table |
+| Written report | `REPORT.md` |
+| Short presentation/demo | `PRESENTATION.md` |
+| CPU-only constraint | This README, `REPORT.md`, and dependency list |
+
 ## Install
 
 Use Python 3.10 or newer.
@@ -66,12 +81,19 @@ The MVP uses `sklearn.ensemble.IsolationForest`.
 
 ## Screenshots
 
-Add screenshots here after running the dashboard during the project demo.
+![Dashboard overview](screenshots/dashboard-overview.png)
 
-```text
-screenshots/dashboard-overview.png
-screenshots/anomaly-explanation.png
-```
+The screenshot shows the dashboard loading the included sample dataset, selecting
+numeric network-flow features, and preparing the anomaly detection workflow.
+
+## Deliverables
+
+- `README.md` - project setup and requirement mapping.
+- `REPORT.md` - written project report.
+- `PRESENTATION.md` - short presentation and demo outline.
+- `screenshots/dashboard-overview.png` - dashboard screenshot for the demo.
+- `tests/test_core.py` - core behavior tests for preprocessing, modeling,
+  explanations, and MITRE mapping.
 
 ## Limitations
 

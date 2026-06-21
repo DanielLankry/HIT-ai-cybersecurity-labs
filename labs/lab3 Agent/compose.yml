@@ -9,8 +9,8 @@ services:
       - ./chainlit.md:/chainlit-runtime/chainlit.md:ro
     ports:
       - "8000:8000"
-    env_file: [.env]
     environment:
+      API_KEY: "${API_KEY:?Set API_KEY in .env before running docker compose}"
       API_BASE_URL: "https://openrouter.ai/api/v1"
       MODEL: "deepseek/deepseek-chat-v3.1"
     command:

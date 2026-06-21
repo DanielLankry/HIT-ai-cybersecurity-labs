@@ -65,3 +65,29 @@ choice for non-critical accounts.
 **Agent:** Hi. Send me a password to evaluate.
 
 (No tool call needed for small talk — handled by the system prompt.)
+
+## Files
+
+- `README.md` - this GitHub folder summary.
+- `app/agent/app.py` - the Chainlit agent and password-strength tool.
+- `compose.yml` - Docker Compose setup for running the agent UI.
+- `.env.template` - example local environment file. The real `.env` is local only.
+- `chainlit.md`, `Dockerfile`, `pyproject.toml` - runtime files.
+
+## How To Run
+
+1. Copy `.env.template` to `.env`.
+2. Put your API key in `.env`.
+3. Start the app:
+
+```powershell
+docker compose up --build
+```
+
+4. Open:
+
+```text
+http://localhost:8000
+```
+
+Do not commit the real `.env` file.
