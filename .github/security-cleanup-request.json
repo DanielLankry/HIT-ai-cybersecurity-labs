@@ -1,9 +1,0 @@
-{
-  "schema_version": 1,
-  "repository": "DanielLankry/HIT-ai-cybersecurity-labs",
-  "request_id": "security-cleanup-20261109-HIT-ai-cybersecurity-labs-01",
-  "expected_refs": {
-    "refs/heads/codex/network-anomaly-dashboard": "58f496737a4ce269ec54ed4496ba0535c20478b6",
-    "refs/heads/main": "534f4cf9e273b1a123b4e017d5d4d92cfd0eeda0"
-  }
-}
