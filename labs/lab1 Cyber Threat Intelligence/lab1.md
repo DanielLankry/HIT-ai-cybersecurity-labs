@@ -2,7 +2,7 @@
 
 ## 1. Group Members
 
-- Daniel Lonkry - REDACTED_PERSONAL_ID
+- Daniel Lonkry
 
 ## 2. Source CTI Report
 
