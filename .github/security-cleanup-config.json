@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "repository": "DanielLankry/HIT-ai-cybersecurity-labs",
+  "target_ref": "refs/heads/main",
+  "sources": [
+    {
+      "id": "historical-student-id",
+      "commit": "034cbc982c27f67270970785430049595dd8bf30",
+      "path": "labs/lab1 Cyber Threat Intelligence/lab1.md",
+      "pattern": "(?m)^-\\s+[^\\r\\n]+? - (\\d{9})[ \\t]*$",
+      "expected_matches": 1,
+      "min_length": 9,
+      "max_length": 9,
+      "replacement": "REDACTED_PERSONAL_ID"
+    }
+  ],
+  "renames": []
+}
